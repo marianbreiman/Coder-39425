@@ -77,6 +77,7 @@ if(condicion){
 // }else{
 //   alert("Si salgo");
 // }
+//el parseInt convierte un numero en un entero
 
 // let edad = parseInt(prompt("Ingrese su edad"));
 
@@ -157,7 +158,7 @@ condicion1 || condicion2 => es verdadera siempre y cuando al menos una de las do
 //   console.log("no entramos al if");
 // }
 
-let nombre = prompt("Ingrese el nombre");
+//let nombre = prompt("Ingrese el nombre");
 
 // if(nombre === "pepito" || nombre === "PEPITO"){
 //   alert("Hola pepito");
@@ -165,11 +166,11 @@ let nombre = prompt("Ingrese el nombre");
 //   alert("No eres pepito");
 // }
 
-if(nombre.toUpperCase() === "PEPITO"){
-  alert("Hola pepito");
-}else{
-  alert("No eres pepito");
-}
+//if(nombre.toUpperCase() === "PEPITO"){
+ // alert("Hola pepito");
+// }else{
+ // alert("No eres pepito");
+// }
 
 //toUpperCase()  convierte un string en mayúscula
 //toLowerCase()  convierte un string en minúscula
