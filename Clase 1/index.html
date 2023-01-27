@@ -6,13 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <script>let entrada = prompt("Ingresar una letra");
+  <script>
 
-  let salida = entrada + " " + "ingresada";alert(salida);</script>
+let nombre;
+let nacimiento;
+let anioActual;
+let edad;
+alert("Bienvenido ciudadano común");
+nombre= (prompt("Cual es tu nombre?"));
+nacimiento= Number(prompt("En que año naciste?"));
+anioActual= Number(prompt("En que año estamos?"));
+edad= anioActual - nacimiento;
+alert (nombre + " vos nacistes en el "+nacimiento+" y tenés "+ edad + " años.");
+  
+  </script>
+
+
+
 </head>
 <body>
   
-  <h2>Esta página contiene una app</h2>
+  <h2>Bienvenidoooo</h2>
 
   <script src="./index.js"></script> <!--  Se crea la conexión mediante el link y la creación del index.js -->
 </body>
