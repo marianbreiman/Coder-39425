@@ -27,6 +27,7 @@ for(desde; hasta; actualizacion){
 //   alert(mensaje);
 // }
 
+//bucle infinito del numero designado alfinal.
 // for(let turno = 1; turno <= 7; turno++){
 //   let nombre = prompt("Ingrese su nombre");
 //   let mensaje = `Turno #${turno} Nombre: ${nombre}`;
@@ -71,6 +72,7 @@ while(repetir){
   console.log("hola");
 } */
 
+//codigo para un falso inicio de sesión hasta que se ingrese el usuario correcto
 // let usuario = prompt("Ingrese el usuario");
 
 // while(usuario != "andres"){
@@ -117,42 +119,48 @@ switch(valor){
 }
 */
 
-let nombre = prompt("Ingrese un nombre");
+// let nombre = prompt("Ingrese un nombre");
 
-while (nombre != "ESC") {
-  switch (nombre) {
-    case "ANA":
-      alert("Hola Ana");
-      break;
+// while (nombre != "ESC") {
+//   switch (nombre) {
+//     case "ANA":
+//       alert("Hola Ana");
+//       break;
 
-    case "JUAN":
-      alert("Hola Juan");
-      break;
+//     case "JUAN":
+//       alert("Hola Juan");
+//       break;
 
-    default:
-      alert("Quién eres?");
-      break;
-  }
+//     default:
+//       alert("Quién eres?");
+//       break;
+//   }
 
-  nombre = prompt("Ingrese un nombre");
-}
+//   nombre = prompt("Ingrese un nombre");
+// }
 
-let moneda = "usd";
+// let moneda = "usd";
 
-switch(moneda){
-  case "ars":
-    console.log("moneda de argentina");
-    break;
+// switch(moneda){
+//   case "ars":
+//     console.log("moneda de argentina");
+//     break;
 
-  case "cop":
-    console.log("moneda de colombia");
-    break;
+//   case "cop":
+//     console.log("moneda de colombia");
+//     break;
 
-  case "clp":
-    console.log("Moneda de chile");
-    break;
+//   case "clp":
+//     console.log("Moneda de chile");
+//     break;
 
-  default:
-    console.log("Moneda no reconocida");
-    break;
-}
+//   default:
+//     console.log("Moneda no reconocida");
+//     break;
+// }
+
+let contraseña = prompt("Ingrese la contraseña")
+while(contraseña != "Perro")
+{alert("contraseña incorrecta");
+contraseña = prompt("Ingrese la contraseña");}
+alert("Bienvenido!");
